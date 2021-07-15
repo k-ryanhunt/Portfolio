@@ -13,54 +13,59 @@ import githubuser from "./images/contactinfo/Slide4.PNG";
 class Contact extends Component {
   render() {
     return (
-      <div className="popoutitems">
-        <Collapsible collapsible popout>
-          <CollapsibleItem
-            expanded={false}
-            node="div"
-            icon={<img src={phone} alt="Call" />}
-          >
-            <a href="tel:843-822-9802" className="contactinfo">
-              <img src={phonenumber} alt="8438229802" />
-            </a>
-          </CollapsibleItem>
-        </Collapsible>
-        <Collapsible collapsible popout>
-          <CollapsibleItem
-            expanded={false}
-            node="div"
-            icon={<img src={email} alt="Email" />}
-          >
-            <a href="mailto:hunt.kelsearyan@gmail.com" className="contactinfo">
-              <img src={emailhandle} alt="8438229802" />
-            </a>
-          </CollapsibleItem>
-        </Collapsible>
-        <Collapsible collapsible popout>
-          <CollapsibleItem
-            expanded={false}
-            node="div"
-            icon={<img src={linkedin} alt="LinkedIn" />}
-          >
-            <a
-              href="https://www.linkedin.com/in/k-ryanhunt/"
-              className="contactinfo"
+      <div className="figure">
+        <div className="popoutitems">
+          <Collapsible collapsible popout>
+            <CollapsibleItem
+              expanded={false}
+              node="div"
+              icon={<img src={phone} alt="Call me" />}
             >
-              <img src={linkedinprofile} alt="8438229802" />
-            </a>
-          </CollapsibleItem>
-        </Collapsible>
-        <Collapsible collapsible popout>
-          <CollapsibleItem
-            expanded={false}
-            node="div"
-            icon={<img src={github} alt="GitHub" />}
-          >
-            <a href="https://github.com/k-ryanhunt" className="contactinfo">
-              <img src={githubuser} alt="8438229802" />
-            </a>
-          </CollapsibleItem>
-        </Collapsible>
+              <a href="tel:843-822-9802" className="contactinfo">
+                <img src={phonenumber} alt="8438229802" />
+              </a>
+            </CollapsibleItem>
+          </Collapsible>
+          <Collapsible collapsible popout>
+            <CollapsibleItem
+              expanded={false}
+              node="div"
+              icon={<img src={email} alt="Email" />}
+            >
+              <a
+                href="mailto:hunt.kelsearyan@gmail.com"
+                className="contactinfo"
+              >
+                <img src={emailhandle} alt="8438229802" />
+              </a>
+            </CollapsibleItem>
+          </Collapsible>
+          <Collapsible collapsible popout>
+            <CollapsibleItem
+              expanded={false}
+              node="div"
+              icon={<img src={linkedin} alt="LinkedIn" />}
+            >
+              <a
+                href="https://www.linkedin.com/in/k-ryanhunt/"
+                className="contactinfo"
+              >
+                <img src={linkedinprofile} alt="8438229802" />
+              </a>
+            </CollapsibleItem>
+          </Collapsible>
+          <Collapsible collapsible popout>
+            <CollapsibleItem
+              expanded={false}
+              node="div"
+              icon={<img src={github} alt="GitHub" />}
+            >
+              <a href="https://github.com/k-ryanhunt" className="contactinfo">
+                <img src={githubuser} alt="8438229802" />
+              </a>
+            </CollapsibleItem>
+          </Collapsible>
+        </div>
       </div>
     );
   }
