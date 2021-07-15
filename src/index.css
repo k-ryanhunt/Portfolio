@@ -2,21 +2,25 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   padding: 20px;
   margin: 0;
-  background-image: url("./images/banner.JPG");
+  background-image: url("./images/banner.png");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: contain;
+  background-size: 85%;
 }
+
 .card-panel {
   width: 200px;
   border-radius: 10px;
 }
+
 .card-panel:hover {
   background-color: #ff5252;
 }
+
 h1,
 h2,
 p,
@@ -25,42 +29,60 @@ li {
   font-family: sans-serif;
   text-align: center;
 }
+
 img {
   padding: 2%;
   justify-content: center;
   border-radius: 40px;
 }
-img:hover {
+.figure > img:hover {
   filter: invert(1);
 }
+
 ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
 }
+
 ul.header {
-  padding-top: 10%;
+  padding-top: 15%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
+
 ul.header li a {
   color: #111;
   font-weight: bold;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px;
   display: inline-block;
 }
+
 .active {
   filter: blur(1);
 }
+
+.button {
+  width: 75%;
+  margin-top: 65%;
+}
+
 .content {
   background-color: rgb(255, 255, 255);
   color: #111;
   border-radius: 20px;
   padding: 10px;
 }
+
 .content h2 {
   padding: 0;
   margin: 0;
 }
+
 .content li {
   margin-bottom: 10px;
 }

@@ -18,25 +18,25 @@ class Main extends Component {
             <li>
               <NavLink exact to="/home">
                 {" "}
-                <img src={aboutme} alt="About Me" />
+                <img class="button" src={aboutme} alt="About Me" />
               </NavLink>
             </li>
             <li>
               <NavLink to="/stuff">
                 {" "}
-                <img src={portfolio} alt="Portfolio" />
+                <img class="button" src={portfolio} alt="Portfolio" />
               </NavLink>
             </li>
             <li>
               <NavLink to="/applications">
                 {" "}
-                <img src={applications} alt="Applications" />
+                <img class="button" src={applications} alt="Applications" />
               </NavLink>
             </li>
             <li>
               <NavLink to="/contact">
                 {" "}
-                <img src={contactme} alt="Contact Me" />
+                <img class="button" src={contactme} alt="Contact Me" />
               </NavLink>
             </li>
           </ul>
