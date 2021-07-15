@@ -4,6 +4,8 @@ import Home from "./home";
 import Stuff from "./stuff";
 import Contact from "./contact";
 import Applications from "./applications";
+//photos
+import banner from "./images/banner.png";
 import aboutme from "./images/aboutme.PNG";
 import portfolio from "./images/portfolio.PNG";
 import applications from "./images/applications.PNG";
@@ -14,29 +16,32 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
+          <header>
+            <img className="banner" src={banner} alt="Kelsea Ryan Hunt" />
+          </header>
           <ul className="header">
             <li>
               <NavLink exact to="/home">
                 {" "}
-                <img class="button" src={aboutme} alt="About Me" />
+                <img className="button" src={aboutme} alt="About Me" />
               </NavLink>
             </li>
             <li>
               <NavLink to="/stuff">
                 {" "}
-                <img class="button" src={portfolio} alt="Portfolio" />
+                <img className="button" src={portfolio} alt="Portfolio" />
               </NavLink>
             </li>
             <li>
               <NavLink to="/applications">
                 {" "}
-                <img class="button" src={applications} alt="Applications" />
+                <img className="button" src={applications} alt="Applications" />
               </NavLink>
             </li>
             <li>
               <NavLink to="/contact">
                 {" "}
-                <img class="button" src={contactme} alt="Contact Me" />
+                <img className="button" src={contactme} alt="Contact Me" />
               </NavLink>
             </li>
           </ul>

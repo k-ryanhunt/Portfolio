@@ -6,10 +6,26 @@
 body {
   padding: 20px;
   margin: 0;
-  background-image: url("./images/banner.png");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 85%;
+}
+
+.carousel .carousel-item > img {
+  height: inherit;
+  width: auto;
+}
+
+.collapsible-header {
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: 'Open Sans Condensed';
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.contactinfo > img,
+.collapsible-body {
+  padding: 0;
+  border-radius: 0px;
 }
 
 h1,
@@ -27,7 +43,13 @@ img {
   border-radius: 40px;
 }
 .figure > img:hover {
-  filter:hue-rotate(90deg);
+  filter: hue-rotate(180deg);
+}
+
+img.banner {
+  width: 100%;
+  height: auto;
+  padding: 0;
 }
 
 ul.header li {
@@ -37,7 +59,6 @@ ul.header li {
 }
 
 ul.header {
-  padding-top: 15%;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -59,7 +80,6 @@ ul.header li a {
 
 .button {
   width: 75%;
-  margin-top: 65%;
 }
 
 .content {
