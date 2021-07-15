@@ -45,6 +45,7 @@ class Main extends Component {
               </NavLink>
             </li>
           </ul>
+          {/* links on the homepage that take you to the listed components */}
           <div className="content container">
             <Route exact path="/home" component={Home} />
             <Route path="/stuff" component={Stuff} />
