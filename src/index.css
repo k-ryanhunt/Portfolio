@@ -42,15 +42,16 @@ h2,
 p,
 ul,
 li {
-  font-family: sans-serif;
+  font-family: 'Montserrat';
   text-align: center;
 }
 
-img {
-  padding: 2%;
-  justify-content: center;
+div > .figure > img {
+  padding: 5px;
+  justify-content: space-evenly;
   border-radius: 40px;
 }
+
 .figure > img:hover {
   filter: hue-rotate(180deg);
 }
