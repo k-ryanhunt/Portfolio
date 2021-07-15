@@ -11,6 +11,7 @@ body {
 .carousel .carousel-item > img {
   height: inherit;
   width: auto;
+  border-radius: 60px;
 }
 
 .collapsible-header {
