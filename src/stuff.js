@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import 'materialize-css';
+import { Carousel } from 'react-materialize';
 
 class Stuff extends Component {
   render() {

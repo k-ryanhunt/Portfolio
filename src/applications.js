@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import Slide1 from "./images/Slide1.JPG";
-import Slide2 from "./images/Slide2.JPG";
-import Slide3 from "./images/Slide3.JPG";
-import Slide4 from "./images/Slide4.JPG";
-import Slide5 from "./images/Slide5.JPG";
-import Slide6 from "./images/Slide6.JPG";
-import Slide7 from "./images/Slide7.JPG";
-import Slide8 from "./images/Slide8.JPG";
-import Slide9 from "./images/Slide9.JPG";
-import Slide10 from "./images/Slide10.JPG";
-import Slide11 from "./images/Slide11.JPG";
-import Slide12 from "./images/Slide12.JPG";
+import Slide1 from "./images/Slide1.PNG";
+import Slide2 from "./images/Slide2.PNG";
+import Slide3 from "./images/Slide3.PNG";
+import Slide4 from "./images/Slide4.PNG";
+import Slide5 from "./images/Slide5.PNG";
+import Slide6 from "./images/Slide6.PNG";
+import Slide7 from "./images/Slide7.PNG";
+import Slide8 from "./images/Slide8.PNG";
+import Slide9 from "./images/Slide9.PNG";
+import Slide10 from "./images/Slide10.PNG";
+import Slide11 from "./images/Slide11.PNG";
+import Slide12 from "./images/Slide12.PNG";
 
 class Application extends Component {
   render() {

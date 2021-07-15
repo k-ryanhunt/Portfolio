@@ -12,15 +12,6 @@ body {
   background-size: 85%;
 }
 
-.card-panel {
-  width: 200px;
-  border-radius: 10px;
-}
-
-.card-panel:hover {
-  background-color: #ff5252;
-}
-
 h1,
 h2,
 p,
@@ -36,7 +27,7 @@ img {
   border-radius: 40px;
 }
 .figure > img:hover {
-  filter: invert(1);
+  filter:hue-rotate(90deg);
 }
 
 ul.header li {
