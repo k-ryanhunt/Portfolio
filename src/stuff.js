@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "materialize-css";
 import { Carousel } from "react-materialize";
-import project1 from "./images/placeholder/Slide6.png";
+import project1 from "./images/placeholder/Slide6.PNG";
 import project2 from "./images/placeholder/Slide7.PNG";
 import project3 from "./images/placeholder/Slide8.PNG";
 import project4 from "./images/placeholder/Slide9.PNG";
