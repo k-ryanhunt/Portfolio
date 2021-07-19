@@ -22,7 +22,6 @@ header {
   border-radius: 60px;
 }
 
-
 .collapsible,
 .popout {
   display: inline-block;
@@ -50,14 +49,14 @@ h1,
 h2,
 ul,
 li {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   text-align: center;
 }
 
 p {
-  font-size: .75rem;
+  font-size: 0.75rem;
   color: white;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   text-align: center;
 }
 
@@ -142,4 +141,54 @@ ul.header li a {
   align-items: center;
   align-content: center;
   justify-content: center;
+}
+
+@media (max-width: 599px) {
+  header {
+    font-size: 2rem;
+  }
+
+  p,
+  h2 {
+    font-size: 6px;
+    padding: 0px;
+    margin: 0;
+  }
+
+  .content.container {
+    max-width: 75vw;
+  }
+
+  img {
+    display: block;
+    width: 3rem;
+  }
+
+  .collapsible,
+.popout {
+  display: block;
+  margin: auto;
+}
+
+.popoutitems {
+  display: contents;
+  width: inherit;
+}
+
+.collapsible-header {
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+  .figure {
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .carousel .carousel-item > img {
+    height: 50%;
+    width: auto;
+    border-radius: 60px;
+}
 }
