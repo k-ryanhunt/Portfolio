@@ -4,45 +4,31 @@ import Home from "./home";
 import Stuff from "./stuff";
 import Contact from "./contact";
 import Applications from "./applications";
-//photos
-import banner from "./images/banner.png";
-import aboutme from "./images/aboutme.PNG";
-import portfolio from "./images/portfolio.PNG";
-import applications from "./images/applications.PNG";
-import contactme from "./images/contactme.PNG";
 
 class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div>
-          <header>
-            <img className="banner" src={banner} alt="Kelsea Ryan Hunt" />
-          </header>
+        <div className="">
+          <div class="bg"></div>
+          <div class="bg bg2"></div>
+          <div class="bg bg3"></div>
+          <header>kelsea ryan hunt</header>
           <ul className="header">
             <li>
               <NavLink exact to="/home">
                 {" "}
-                <img className="button" src={aboutme} alt="About Me" />
+                about me
               </NavLink>
             </li>
             <li>
-              <NavLink to="/stuff">
-                {" "}
-                <img className="button" src={portfolio} alt="Portfolio" />
-              </NavLink>
+              <NavLink to="/stuff"> my work</NavLink>
             </li>
             <li>
-              <NavLink to="/applications">
-                {" "}
-                <img className="button" src={applications} alt="Applications" />
-              </NavLink>
+              <NavLink to="/applications"> skills</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">
-                {" "}
-                <img className="button" src={contactme} alt="Contact Me" />
-              </NavLink>
+              <NavLink to="/contact"> contact</NavLink>
             </li>
           </ul>
           {/* links on the homepage that take you to the listed components */}

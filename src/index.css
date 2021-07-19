@@ -8,11 +8,20 @@ body {
   margin: 0;
 }
 
+header {
+  font-family: "Megrim";
+  color: white;
+  font-size: 4rem;
+  justify-content: center;
+  text-shadow: 2px 2px 6px chartreuse;
+}
+
 .carousel .carousel-item > img {
   height: inherit;
   width: auto;
   border-radius: 60px;
 }
+
 
 .collapsible,
 .popout {
@@ -39,7 +48,6 @@ body {
 
 h1,
 h2,
-p,
 ul,
 li {
   font-family: 'Montserrat';
@@ -47,7 +55,10 @@ li {
 }
 
 p {
-  font-size: .5rem;
+  font-size: .8rem;
+  color: white;
+  font-family: 'Montserrat';
+  text-align: center;
 }
 
 h2 {
@@ -90,8 +101,8 @@ ul.header {
 }
 
 ul.header li a {
-  color: #111;
-  font-weight: bold;
+  color: white;
+  font-size: 100%;
   text-decoration: none;
   padding: 10px;
   display: inline-block;
@@ -105,11 +116,15 @@ ul.header li a {
   width: 75%;
 }
 
+.content.container {
+  margin-left: auto !important;
+  margin-top: 5%;
+}
 .content {
-  background-color: rgb(255, 255, 255);
-  color: #111;
-  border-radius: 20px;
+  color: white;
   padding: 10px;
+  height: 75vh;
+  width: 100vh;
 }
 
 .content h2 {

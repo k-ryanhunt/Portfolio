@@ -5,13 +5,10 @@ import project1 from "./images/placeholder/Slide6.PNG";
 import project2 from "./images/placeholder/Slide7.PNG";
 import project3 from "./images/placeholder/Slide8.PNG";
 import project4 from "./images/placeholder/Slide9.PNG";
-import project5 from "./images/placeholder/Slide10.PNG";
-import project6 from "./images/placeholder/Slide11.PNG";
 
 class Stuff extends Component {
   render() {
     return (
-      <div>
         <Carousel
           carouselId="Carousel-2"
           className="white-text center"
@@ -32,14 +29,7 @@ class Stuff extends Component {
           <a className="carousel-item" href="https://github.com/k-ryanhunt/Day-Planner">
             <img src={project4} alt="Day Planner" />
           </a>
-          <a className="carousel-item" href="#five!">
-            <img src={project5} alt="Nature" />
-          </a>
-          <a className="carousel-item" href="#five!">
-            <img src={project6} alt="Nature" />
-          </a>
         </Carousel>
-      </div>
     );
   }
 }

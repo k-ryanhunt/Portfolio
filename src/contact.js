@@ -50,7 +50,7 @@ class Contact extends Component {
                 href="https://www.linkedin.com/in/k-ryanhunt/"
                 className="contactinfo"
               >
-                <img src={linkedinprofile} alt="8438229802" />
+                <img src={linkedinprofile} alt="LinkedIn" />
               </a>
             </CollapsibleItem>
           </Collapsible>
@@ -61,7 +61,7 @@ class Contact extends Component {
               icon={<img src={github} alt="GitHub" />}
             >
               <a href="https://github.com/k-ryanhunt" className="contactinfo">
-                <img src={githubuser} alt="8438229802" />
+                <img src={githubuser} alt="GitHub" />
               </a>
             </CollapsibleItem>
           </Collapsible>

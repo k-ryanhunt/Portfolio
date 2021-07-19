@@ -15,19 +15,25 @@ import Slide12 from "./images/Slide12.PNG";
 class Application extends Component {
   render() {
     return (
-      <div class="figure">
-        <img src= {Slide1} alt="MongoDB"/>
-        <img src= {Slide2} alt="Express.JS"/>
-        <img src= {Slide3} alt="React.JS"/>
-        <img src= {Slide4} alt="Node.JS"/>
-        <img src= {Slide5} alt="GitHub"/>
-        <img src= {Slide6} alt="GitBash"/>
-        <img src= {Slide7} alt="VSCode"/>
-        <img src= {Slide8} alt="MySQL"/>
-        <img src= {Slide9} alt="Mongoose"/>
-        <img src= {Slide10} alt="Bootstrap"/>
-        <img src= {Slide11} alt="Webpack"/>
-        <img src= {Slide12} alt="Handlebars"/>
+      <div>
+        <div class="figure">
+          <img src={Slide1} alt="MongoDB" />
+          <img src={Slide2} alt="Express.JS" />
+          <img src={Slide3} alt="React.JS" />
+          <img src={Slide4} alt="Node.JS" />
+        </div>
+        <div class="figure">
+          <img src={Slide5} alt="GitHub" />
+          <img src={Slide6} alt="GitBash" />
+          <img src={Slide7} alt="VSCode" />
+          <img src={Slide8} alt="MySQL" />
+        </div>
+        <div class="figure">
+          <img src={Slide9} alt="Mongoose" />
+          <img src={Slide10} alt="Bootstrap" />
+          <img src={Slide11} alt="Webpack" />
+          <img src={Slide12} alt="Handlebars" />
+        </div>
       </div>
     );
   }
