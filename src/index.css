@@ -8,12 +8,14 @@ body {
   margin: 0;
 }
 
-header {
-  font-family: "Megrim";
-  color: white;
-  font-size: 4rem;
+header,
+header > img {
   justify-content: center;
-  text-shadow: 2px 2px 6px chartreuse;
+  height: 17rem;
+  width: auto;
+  margin-left: 20px;
+  margin-top: -30px;
+  margin-bottom: -75px;
 }
 
 .carousel .carousel-item > img {
@@ -55,7 +57,7 @@ li {
 
 p {
   font-size: 0.75rem;
-  color: white;
+  color: black;
   font-family: "Montserrat";
   text-align: center;
 }
@@ -100,7 +102,7 @@ ul.header {
 }
 
 ul.header li a {
-  color: white;
+  color: black;
   font-size: 100%;
   text-decoration: none;
   padding: 10px;
@@ -120,10 +122,11 @@ ul.header li a {
   margin-top: 5%;
 }
 .content {
-  color: white;
+  color: black;
   padding: 10px;
   height: 75vh;
   width: 100vh;
+  z-index: -1;
 }
 
 .content h2 {

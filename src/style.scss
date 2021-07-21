@@ -8,7 +8,7 @@ body {
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #810050 50%, #000b46 50%);
+  background-image: linear-gradient(-60deg, #f0ff99 50%, #e3ffc3 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -28,9 +28,9 @@ body {
 }
 
 .content {
-  background-color:rgba(229, 255, 0, 0.3);
+  background-color:rgba(255, 255, 255, 0.3);
   border-radius:.25em;
-  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-shadow:0 0 .25em rgba(255, 255, 255, 0.25);
   box-sizing:border-box;
   left:50%;
   padding:10vmin;

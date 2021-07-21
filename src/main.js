@@ -4,6 +4,7 @@ import Home from "./home";
 import Stuff from "./stuff";
 import Contact from "./contact";
 import Applications from "./applications";
+import banner from './images/name.png';
 
 class Main extends Component {
   render() {
@@ -13,7 +14,7 @@ class Main extends Component {
           <div class="bg"></div>
           <div class="bg bg2"></div>
           <div class="bg bg3"></div>
-          <header>kelsea ryan hunt</header>
+          <header><img src={banner} alt="banner" /></header>
           <ul className="header">
             <li>
               <NavLink exact to="/home">
