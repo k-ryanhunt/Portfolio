@@ -8,43 +8,40 @@ body {
   margin: 0;
 }
 
-header,
-header > img {
+header {
+  display: flex;
   justify-content: center;
-  height: 17rem;
+}
+
+header > img {
+  width: 60vw;
+}
+
+.aboutme,
+.applications {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75vh;
   width: auto;
-  margin-left: 30px;
-  margin-top: -30px;
-  margin-bottom: -75px;
+  border-radius: 40px;
+}
+
+.contactme {
+  display: block;
+  margin: auto;
+  height: 6vh;
+  width: auto;
 }
 
 .carousel .carousel-item > img {
-  height: inherit;
+  height: 75vh;
   width: auto;
   border-radius: 60px;
 }
 
-.collapsible,
-.popout {
-  display: inline-block;
-  margin: auto;
-}
-
-.popoutitems {
-  display: flex;
-  width: fit-content;
-}
-
-.collapsible-header {
-  align-items: center;
-  justify-content: center;
-  border: none;
-}
-
-.contactinfo > img,
-.collapsible-body {
-  padding: 0;
-  border-radius: 0px;
+.carousel {
+  height: 75vh;
 }
 
 h1,
@@ -55,36 +52,8 @@ li {
   text-align: center;
 }
 
-p {
-  font-size: 0.75rem;
-  color: black;
-  font-family: "Montserrat";
-  text-align: center;
-}
-
 h2 {
   font-size: 2.5rem;
-}
-
-div > .figure > img {
-  padding: 5px;
-  justify-content: space-evenly;
-  border-radius: 40px;
-}
-
-.figure > img:hover {
-  filter: hue-rotate(180deg);
-}
-
-header {
-  display: flex;
-}
-
-img.banner {
-  width: 75%;
-  height: auto;
-  padding: 0;
-  margin: auto;
 }
 
 ul.header li {
@@ -102,10 +71,10 @@ ul.header {
 }
 
 ul.header li a {
-  color: black;
-  font-size: 100%;
+  color: white;
+  font-size: 150%;
   text-decoration: none;
-  padding: 10px;
+  padding: 15px;
   display: inline-block;
 }
 
@@ -115,27 +84,6 @@ ul.header li a {
 
 .button {
   width: 75%;
-}
-
-.content.container {
-  margin-left: auto !important;
-  margin-top: 5%;
-}
-.content {
-  color: black;
-  padding: 10px;
-  height: 75vh;
-  width: 100vh;
-  z-index: -1;
-}
-
-.content h2 {
-  padding: 0;
-  margin: 0;
-}
-
-.content li {
-  margin-bottom: 10px;
 }
 
 .figure {
@@ -157,41 +105,9 @@ ul.header li a {
     padding: 0px;
     margin: 0;
   }
-
-  .content.container {
-    max-width: 75vw;
-  }
-
-  img {
-    display: block;
-    width: 3rem;
-  }
-
-  .collapsible,
-.popout {
-  display: block;
-  margin: auto;
-}
-
-.popoutitems {
-  display: contents;
-  width: inherit;
-}
-
-.collapsible-header {
-  align-items: center;
-  justify-content: center;
-  border: none;
-}
-
-  .figure {
-    justify-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
   .carousel .carousel-item > img {
     height: 50%;
     width: auto;
     border-radius: 60px;
-}
+  }
 }

@@ -4,7 +4,7 @@ import Home from "./home";
 import Stuff from "./stuff";
 import Contact from "./contact";
 import Applications from "./applications";
-import banner from './images/name.png';
+import banner from './images/banner.png';
 
 class Main extends Component {
   render() {
@@ -33,7 +33,7 @@ class Main extends Component {
             </li>
           </ul>
           {/* links on the homepage that take you to the listed components */}
-          <div className="content container">
+          <div>
             <Route exact path="/home" component={Home} />
             <Route path="/stuff" component={Stuff} />
             <Route path="/applications" component={Applications} />
