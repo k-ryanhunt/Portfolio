@@ -10,7 +10,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <a href="https://drive.google.com/file/d/1XF3GxzAMLUK7u0RNczBxhDBcB_NzU8vs/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1yAhsbdJGy5v-ypE9RW7ccTn1hnbdCojO/view?usp=sharing">
           <img src={resume} alt="Resume" className="contactme" />
         </a>
         <a href="tel:843-822-9802">
